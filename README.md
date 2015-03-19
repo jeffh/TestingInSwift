@@ -3,6 +3,8 @@ Testing in Swift
 
 A sample swift application with tests. Supplementary material to my "Testing in Swift" talk.
 
+**This code requires Swift 1.2 (Xcode 6.3 beta)**.
+
 Installation
 ============
 
