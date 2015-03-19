@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7519.1" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="RandomApp" customModuleProvider="target">
+            <connections>
+                <outlet property="numberLabel" destination="LjJ-eO-nw9" id="XTc-w9-6Dj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LjJ-eO-nw9">
+                    <rect key="frame" x="188" y="148" width="225" height="303"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="303" id="N7W-aT-ULW"/>
+                        <constraint firstAttribute="width" constant="225" id="tnH-wA-Bhh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="LjJ-eO-nw9" secondAttribute="centerX" constant="-0.5" id="DsK-Qh-8BW"/>
+                <constraint firstAttribute="centerY" secondItem="LjJ-eO-nw9" secondAttribute="centerY" constant="0.5" id="RFG-ea-CNf"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

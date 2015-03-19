@@ -1,0 +1,26 @@
+PODS:
+  - Fox (1.0.1)
+  - Nimble (HEAD based on 0.4.0)
+  - Quick (HEAD based on 0.2.2)
+
+DEPENDENCIES:
+  - Fox (from `https://github.com/jeffh/Fox.git`, branch `master`)
+  - Nimble (HEAD)
+  - Quick (HEAD)
+
+EXTERNAL SOURCES:
+  Fox:
+    :branch: master
+    :git: https://github.com/jeffh/Fox.git
+
+CHECKOUT OPTIONS:
+  Fox:
+    :commit: dc5b698505cee0cdbbafca56bf45ca5b5f3f0129
+    :git: https://github.com/jeffh/Fox.git
+
+SPEC CHECKSUMS:
+  Fox: 8df7ca5d8a5390efde5397c7e97d086d99a4ecdb
+  Nimble: 9c3e917791790aa54ca6bebcc022a282d3d5eb39
+  Quick: 7b89ff625e72ef931c2a9ef2f25ac3a9d2457763
+
+COCOAPODS: 0.36.0
