@@ -17,7 +17,7 @@ public class ListViewController: UITableViewController {
     public init(client: RandomClient) {
         self.client = client
         self.numbers = []
-        super.init(style: .Plain)
+        super.init(nibName: nil, bundle: nil)
     }
 
     required public init(coder aDecoder: NSCoder) {
