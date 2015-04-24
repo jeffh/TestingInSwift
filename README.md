@@ -1,7 +1,7 @@
 Testing in Swift
 ================
 
-A sample swift application with tests. Supplementary material to my "Testing in Swift" talk.
+A sample swift application with tests. Supplementary material to my [Testing in Swift](https://realm.io/news/testing-in-swift/) talk.
 
 **This code requires Swift 1.2 (Xcode 6.3 beta)**.
 
